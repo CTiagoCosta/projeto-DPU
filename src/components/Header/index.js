@@ -32,7 +32,7 @@ export default function Header(){
         <FiSettings color="#FFF" size={24} />
         Configurações
       </Link>         
-      
     </div>
+    
   )
 }

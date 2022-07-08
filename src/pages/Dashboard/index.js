@@ -18,19 +18,19 @@ export default function Dashboard(){
         <div>
             <Header/>
             <div className="content">
-            <Title name="Iniciais">
-                <FiMessageSquare size={25} />
-            </Title>  
+                <Title name="Iniciais">
+                    <FiMessageSquare size={25} />
+                </Title>  
                 
-            <div className="container dashboard">
-                <span>Nenhuma Inicial registrada...</span>
+                <div className="container dashboard">
+                    <span>Nenhuma Inicial registrada...</span>
 
-                <Link to="/new" className="new">
-                    <FiPlus size={25} color="#FFF" />
-                        Cadastrar nova Inicial
-                </Link>
-          </div>
-                <button onClick={() => signOut() }>Fazer Logout</button>
+                    <Link to="/new" className="new">
+                        <FiPlus size={25} color="#FFF" />
+                            Cadastrar nova Inicial
+                    </Link>
+                </div>
+                
             </div>
         </div>
     )
